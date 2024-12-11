@@ -210,7 +210,7 @@ function Project() {
                   <PiCalendarFill size={18} />
                   {daysLeft !== null && daysLeft >= 0 ? (
                     <Typography.Text>
-                      {daysLeft + 1} {daysLeft + 1 > 2 ? "days" : "day"} left
+                      {daysLeft} {daysLeft > 2 ? "days" : "day"} left
                     </Typography.Text>
                   ) : (
                     <Typography.Text type="secondary">N/A</Typography.Text>
