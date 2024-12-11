@@ -112,6 +112,7 @@ function Project() {
           style={{
             backgroundColor: colorBgContainer + "44",
             width: "50vw",
+            maxWidth: 800,
             textAlign: "center",
           }}
         >
