@@ -154,6 +154,11 @@ function UpsertLeadModal({ lead, isOpen, onClose }) {
                           { label: "Phone", value: "phone" },
                           { label: "LinkedIn", value: "linkedin" },
                           { label: "Reddit", value: "reddit" },
+                          { label: "Twitch", value: "twitch" },
+                          { label: "Kick", value: "kick" },
+                          { label: "Instagram", value: "instagram" },
+                          { label: "Discord", value: "discord" },
+                          { label: "Other", value: "other" },
                         ]}
                       />
                     </Form.Item>

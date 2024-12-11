@@ -298,7 +298,6 @@ function Project() {
           type="primary"
           icon={<PiShareNetworkFill size={24} color={colorBgContainer} />}
           onClick={() => {
-            console.log(project);
             const url = window.location.origin + "/" + projectID;
             navigator.clipboard.writeText(url);
           }}
