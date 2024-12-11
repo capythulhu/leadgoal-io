@@ -43,7 +43,10 @@ function UpsertLeadModal({ lead, isOpen, onClose }) {
       open={isOpen}
       confirmLoading={isLoading}
       onOk={form.submit}
-      onCancel={onClose}
+      onCancel={() => {
+        onClose();
+        form.resetFields();
+      }}
       centered
       footer={
         <Space>
