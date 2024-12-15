@@ -44,7 +44,7 @@ function UpsertLeadModal({ lead, isOpen, onClose }) {
       confirmLoading={isLoading}
       onOk={() => {
         form.submit();
-        form.resetFields();
+        form.setFieldsValue({});
       }}
       onCancel={onClose}
       centered

@@ -245,7 +245,7 @@ function Project() {
                   onClick={() => setIsAddLeadModalOpen(true)}
                 >
                   <Typography.Text style={{ color: colorBgContainer }}>
-                    Add Lead
+                    <b>Add Lead</b>
                   </Typography.Text>
                 </Button>
               </Flex>
